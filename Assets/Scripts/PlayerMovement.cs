@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Animator anim;
     public ParticleSystem slash_particle;
+    public ParticleSystem dash_particle;
 
 
     private void Awake()
@@ -42,10 +43,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (cooldown > 0f)
         {
-            if (cooldown >= 0.5f) rb.velocity = new Vector2(horizontal * new_speed_x, rb.velocity.y);
-            else 
+            if (cooldown >= 0.5f)
             {
-                anim.SetBool("UsingDash", false);   
+                rb.velocity = new Vector2(horizontal * new_speed_x, rb.velocity.y);
+                dash_particle.Play();
+            }
+            else
+            {
+                anim.SetBool("UsingDash", false);
+                dash_particle.Stop();
             }
             cooldown -= Time.deltaTime;
             if (cooldown < 0f) cooldown = 0f;

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class timer_death_enemy_air : MonoBehaviour
 {
+    public GameObject heart;
+    public Transform heart_position;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,7 @@ public class timer_death_enemy_air : MonoBehaviour
     {
         if (collision.gameObject.tag == "slash")
         {
+            Instantiate(heart, heart_position.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

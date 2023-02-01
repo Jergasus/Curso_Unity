@@ -26,8 +26,6 @@ public class timer_death : MonoBehaviour
                 GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
                 GetComponent<Collider2D>().enabled = false;
                 Instantiate(heart, heart_position.position, Quaternion.identity);
-                Instantiate(heart, heart_position.position, Quaternion.identity);
-                Instantiate(heart, heart_position.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }

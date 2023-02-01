@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = 1f;
+        time = 1.5f;
     }
 
     // Update is called once per frame

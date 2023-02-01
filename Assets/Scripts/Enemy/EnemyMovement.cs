@@ -37,7 +37,7 @@ public class EnemyMovement : MonoBehaviour
         if (time == 0f)
         {
             anim.SetBool("Detection", area_hit.inside_little);
-            time = 1f;
+            if (area_hit.inside_little) time = 1f;
         }
         if (rb.position.x < target.position.x) anim.SetFloat("Direction", -1);
         else if (rb.position.x > target.position.x) anim.SetFloat("Direction", 1);

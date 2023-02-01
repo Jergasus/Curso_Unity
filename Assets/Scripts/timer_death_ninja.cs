@@ -61,7 +61,7 @@ public class timer_death_ninja : MonoBehaviour
     {
         if (collision.gameObject.tag == "slash_missile")
         {
-            vida = vida - 2;
+            vida -= 2;
         }
     }
 }

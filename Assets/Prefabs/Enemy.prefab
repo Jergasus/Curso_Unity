@@ -441,6 +441,7 @@ MonoBehaviour:
   target: {fileID: 0}
   area: {fileID: 8504033590449225563}
   area_hit: {fileID: 8504033590393402979}
+  hit: {fileID: 0}
 --- !u!114 &737959505
 MonoBehaviour:
   m_ObjectHideFlags: 0
