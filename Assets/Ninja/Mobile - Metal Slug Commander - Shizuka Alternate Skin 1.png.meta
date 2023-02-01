@@ -1,0 +1,1169 @@
+fileFormatVersion: 2
+guid: 25c7642d2b0e8bf4d9a412ad58911e21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1212
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6723b7bb1e06e147af07f5f148a44ce
+      internalID: 1277077800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1212
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c0b222dfddaa341b0a07317f3e62a5
+      internalID: -127505755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1212
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b4f63081dcb4b4e9dcd539155d38a9
+      internalID: -201605113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1212
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19f31bec11dab747b7dd1db8036d62b
+      internalID: 232681683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1212
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d63124f466b05e4083949f26c01de41
+      internalID: 84672594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1212
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1bbf3878077e646b9cc6679136c058
+      internalID: 1175298465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1212
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4e69f3122e4534187621ed589f4653
+      internalID: -1211430840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_7
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1212
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ac849e6f3ce14383c699994e191a2
+      internalID: 1263790280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_8
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1212
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08ccccd962abc64283ccfa11577c064
+      internalID: -671290767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1212
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80270f03679b1a74d96a2db785096e1a
+      internalID: 1414046855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1148
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8727402b880490f43974f811ec8c2798
+      internalID: -1109427543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1148
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836eca28a1be8b544beb6d51089b1b5a
+      internalID: -1359716842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1148
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e965edaa38997d34cba10fdf03448ebc
+      internalID: 965627497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1148
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37a0fed4dd3c941acca0665684940e
+      internalID: -1810223722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1148
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12c08ebb49c32b41a4ae113fecaa533
+      internalID: 1849412750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1148
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68685d53948fb24f9d2e05958b53684
+      internalID: -2143719770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1148
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad27d22a3c6fe5e4c95929969aae429b
+      internalID: -1605519964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1148
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b1b2b121b1691479a1b164e1a1f538
+      internalID: -1518182546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1148
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f83f13acb8d2b4e896ac5280147dc5
+      internalID: -1880765493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_19
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1148
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7f1e91b72f594098f56c844c5f45a
+      internalID: 2120243467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 828
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2a7546c9e6fdb46acdf98dc2b085b5
+      internalID: -834693899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 828
+        width: 83
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc22b0c46de91d43b15bd310c1e60e1
+      internalID: -632070773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 828
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ae73f6c7b8816419fd92b5f8915f9d
+      internalID: -215949462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_23
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 828
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17638a35a66389248a66bca2a579981d
+      internalID: -889628227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_24
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 828
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6ef34f8b17739488884133e5ae59d9
+      internalID: -1579468219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 764
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0ea40b53644a84fae4a42a66431f10
+      internalID: 1093307095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 764
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0612a1ccf5e9d041a234753413ec697
+      internalID: 1720998543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_27
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 764
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100e531b621b2274eb2ff2be4c9eb07e
+      internalID: -1771100647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_28
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 764
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f3d0cf6bd10524196d2eb037b69bb8
+      internalID: -502885338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 764
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff668150c426fc429e113735a70b021
+      internalID: 198691805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_30
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 764
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f33c70f6e44d4dbbe97f464283360
+      internalID: -819113062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_31
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 764
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fadd8274cd094c4e8d245f54158c9b7
+      internalID: -129870418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_32
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 764
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a210e91ed395d549964d46fdd573c66
+      internalID: -135836408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_33
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 765
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc7eb711e9a598489d0a59b6c62fad9
+      internalID: -1688474143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_34
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 766
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa97e18394351d84fa85879d278be0fd
+      internalID: 1771509467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_35
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1020
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d3c57f1f9e3bd4da6b3fe6ff715cbc
+      internalID: 1736620784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1024
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54692b03d0e1db146a96c6f54e447ea7
+      internalID: -312649450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_37
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1028
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ba5a4c29b97fb42b7bca8c81838751
+      internalID: -621599170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_38
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1034
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d57c6526f12e048a022b303d346e5f
+      internalID: 1293820353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_39
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1029
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a33badeda11f448b5ab1c8cec2e675
+      internalID: -677354892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1019
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfdcda31a997e94aadf6f27f1454e20
+      internalID: -1611804997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_41
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1020
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdb58174d119cf42af86f9c7b6be947
+      internalID: -87413046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_42
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1020
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2574de0aa4f76b54f948c98a16d7ce53
+      internalID: 1055177874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_43
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1020
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cdf6fe8026a004fb19f0f1aea45b12
+      internalID: 773111469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_44
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1018
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ed3fbbc5c35845bd5b698138c2222
+      internalID: -325009857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_45
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1018
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6468bdb5d01f5408fb417c185e7efb
+      internalID: 1591176406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_46
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1018
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be336e7fc593164f91c46bba0500e07
+      internalID: -1603470287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_24: -1579468219
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_34: 1771509467
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_23: -889628227
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_1: -127505755
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_31: -129870418
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_33: -1688474143
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_12: 965627497
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_21: -632070773
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_0: 1277077800
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_41: -87413046
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_43: 773111469
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_29: 198691805
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_6: -1211430840
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_11: -1359716842
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_19: 2120243467
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_27: -1771100647
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_25: 1093307095
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_32: -135836408
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_37: -621599170
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_42: 1055177874
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_22: -215949462
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_5: 1175298465
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_35: 1736620784
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_15: -2143719770
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_16: -1605519964
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_3: 232681683
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_14: 1849412750
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_8: -671290767
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_9: 1414046855
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_26: 1720998543
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_39: -677354892
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_40: -1611804997
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_2: -201605113
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_4: 84672594
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_13: -1810223722
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_46: -1603470287
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_28: -502885338
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_30: -819113062
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_36: -312649450
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_18: -1880765493
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_45: 1591176406
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_38: 1293820353
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_20: -834693899
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_10: -1109427543
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_44: -325009857
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_7: 1263790280
+      Mobile - Metal Slug Commander - Shizuka Alternate Skin 1_17: -1518182546
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

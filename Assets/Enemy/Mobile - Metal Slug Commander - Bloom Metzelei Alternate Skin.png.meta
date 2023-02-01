@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 64ef75b8be72f8d4096c6ce801fff96e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2184
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4743697, y: 0.027114257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef3604ce88717d4cbf515088bba1fb8
+      internalID: 1865514872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2184
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4444677, y: 0.030620117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f19131f569a644bf6d49c5fd3848f
+      internalID: -1090207355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2184
+        width: 41
+        height: 51
+      alignment: 9
+      pivot: {x: 0.42738083, y: 0.032954197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cfe5908cc6cd74eaa58a22fbb68e98
+      internalID: -1138425524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 2184
+        width: 41
+        height: 51
+      alignment: 9
+      pivot: {x: 0.43592352, y: 0.02951708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68df8af05af680d429315a91d9a8c721
+      internalID: 1369010756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_4
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2184
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.44161987, y: 0.034121092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84297b7849710a142b4d1b6785e3bdf0
+      internalID: 1045053438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_5
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 2184
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.44579062, y: 0.030620117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e471268ff0dc9243966abe2d629ac92
+      internalID: -378955422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_6
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2184
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.46663994, y: 0.030620117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855fdfc5f9a6fd949807a2729bb6f316
+      internalID: 1110455987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_7
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2184
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4874907, y: 0.0329539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7b4661d1be1fa4f840de2cd5606250
+      internalID: 1503793836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_8
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 2184
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.50427246, y: 0.030470828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3fb7081c3bd034bac85369fd9c9341
+      internalID: 262506058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2184
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.49573052, y: 0.031763192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e503630725b901f49be8d56d63c6a3c8
+      internalID: 93826991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2040
+        width: 80
+        height: 64
+      alignment: 9
+      pivot: {x: 0.3042141, y: 0.020191193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c5856cd841a564b8657a04c6f57cae
+      internalID: 994922125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_12
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2040
+        width: 118
+        height: 76
+      alignment: 9
+      pivot: {x: 0.8114112, y: 0.016609594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b311080bcfe29aa46a26381afa64c26b
+      internalID: 1377079714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_13
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2040
+        width: 129
+        height: 69
+      alignment: 9
+      pivot: {x: 0.8271068, y: 0.01699608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042afa64477fbf4b9ce3208cff995cc
+      internalID: 871058192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2040
+        width: 96
+        height: 77
+      alignment: 9
+      pivot: {x: 0.58679074, y: 0.013075791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dade79bf698063942be3ce68bef39fa9
+      internalID: -1250775674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_15
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 2040
+        width: 85
+        height: 90
+      alignment: 9
+      pivot: {x: 0.46205768, y: 0.022334797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abff01bc7064844baba3bc65d1e9cf5
+      internalID: -300111181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_16
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 2040
+        width: 130
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6902062, y: 0.0124667855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febe078a8acde554abd3ebbfb490a942
+      internalID: 531647226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_17
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 2040
+        width: 152
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7595544, y: 0.020296963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79ad0cdcb018a64fa9bb0775126893a
+      internalID: -1544753652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_18
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2040
+        width: 78
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6242613, y: 0.02333252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ff535073d1aec41980597b5d01048a
+      internalID: -1367475313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_19
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 2040
+        width: 44
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4638894, y: 0.02015381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a2806b55353884aa084e500a004377
+      internalID: 1925321701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1384
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47720003, y: 0.023232423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c80c3c0e7f624448417508a0892540
+      internalID: -190083409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1384
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5190785, y: 0.036121715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edc2183dfe0904418366f84cd5ce5f1
+      internalID: -1332436705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_22
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1384
+        width: 57
+        height: 30
+      alignment: 9
+      pivot: {x: 0.53829527, y: 0.039278157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141c4a7636d7d0b4d8ee5c65c9476e52
+      internalID: -1219650429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_23
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1384
+        width: 59
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5515013, y: 0.036233835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5dba449da39048bdf1fd59795b011
+      internalID: -1573230650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_24
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1384
+        width: 58
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5467056, y: 0.039344523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dfcd7093d5a38449fe1f08af1603df
+      internalID: -1355406158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_25
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1384
+        width: 55
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5384666, y: 0.057259697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d547a3f543ae3fa469fd26d955e6c303
+      internalID: -1984247962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_26
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1384
+        width: 55
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5373513, y: 0.055184502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce4f59d59268834c95d2fa73dda6dfb
+      internalID: -1681709970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_27
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1384
+        width: 55
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5350164, y: 0.036843438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec87caddc4fc62d4ba1d3c8eff1e3ec9
+      internalID: -837833734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_28
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1384
+        width: 55
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5373513, y: 0.044177245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a0dc8cd4e929b4b841b02b4816afc6
+      internalID: -1591989245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_29
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1384
+        width: 54
+        height: 12
+      alignment: 9
+      pivot: {x: 0.52892387, y: 0.085347496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a57b4cfac13a429f710c0ae562ba4
+      internalID: -1218918851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_30
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1384
+        width: 49
+        height: 5
+      alignment: 9
+      pivot: {x: 0.54192495, y: 0.14047852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9ab7d37ee76d44995def38d57736d2
+      internalID: 103308591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_31
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1384
+        width: 27
+        height: 2
+      alignment: 9
+      pivot: {x: 0.65217644, y: 0.30737305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da2919c3d1fbba49b9dbf653513ea1a
+      internalID: 786228840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_32
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2040
+        width: 81
+        height: 60
+      alignment: 9
+      pivot: {x: 0.34892857, y: 0.033839926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e01d94081e608b4ca51a50dfa5a771b
+      internalID: -1904095137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_9: 93826991
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_1: -1090207355
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_28: -1591989245
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_13: 871058192
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_16: 531647226
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_24: -1355406158
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_17: -1544753652
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_6: 1110455987
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_27: -837833734
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_31: 786228840
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_0: 1865514872
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_14: -1250775674
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_20: -190083409
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_10: 821042658
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_32: -1904095137
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_5: -378955422
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_30: 103308591
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_7: 1503793836
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_22: -1219650429
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_2: -1138425524
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_8: 262506058
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_4: 1045053438
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_21: -1332436705
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_23: -1573230650
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_15: -300111181
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_29: -1218918851
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_11: 994922125
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_12: 1377079714
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_3: 1369010756
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_18: -1367475313
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_19: 1925321701
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_26: -1681709970
+      Mobile - Metal Slug Commander - Bloom Metzelei Alternate Skin_25: -1984247962
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
