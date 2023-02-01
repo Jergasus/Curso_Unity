@@ -6,19 +6,18 @@ public class timer_death : MonoBehaviour
 {
     private Animator anim;
     public GameObject heart;
+    public float life;
     private float time;
-    private bool death;
     // Start is called before the first frame update
     void Start()
     {
-        time = 0.7f;
-        death = false;
         anim = GetComponent<Animator>();
+        time = 1f;
     }
     // Update is called once per frame
     void Update()
     {
-        if (time > 0f && death)
+        if (time > 0f && life <= 0)
         {
             time -= Time.deltaTime;
             if (time <= 0f)
@@ -29,15 +28,9 @@ public class timer_death : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void GetDamage(float damage)
     {
-        if (collision.gameObject.tag == "slash" && gameObject.tag == "Enemy")
-        {
-            GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
-            GetComponent<Collider2D>().enabled = false;
-            anim.SetBool("Hit_Received", true);
-            death = true;
-        }
-            
+        life -= damage;
+        if (life <= 0) anim.SetBool("Hit_Received", true);
     }
 }

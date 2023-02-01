@@ -45,6 +45,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coleccionable: {fileID: 0}
+--- !u!1 &3875077210623263159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3954176373917087479}
+  - component: {fileID: 5731650858904219305}
+  - component: {fileID: 8656911457825274719}
+  m_Layer: 0
+  m_Name: HitboxSlashLeft
+  m_TagString: slash
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3954176373917087479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875077210623263159}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.0216942, y: 0.516353, z: 0.20714928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8656911458432000826}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &5731650858904219305
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875077210623263159}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.4026017, y: -1.5253214}
+  - {x: -2.9910688, y: -1.3953962}
+  - {x: -5.3842573, y: -0.5131501}
+  - {x: -6.049637, y: -0.028875232}
+  - {x: -6.3231, y: 0.35124683}
+  - {x: -6.1388426, y: 0.5658791}
+  - {x: -5.6990623, y: 0.7497357}
+  - {x: -5.125149, y: 0.7385329}
+  - {x: -4.7547855, y: 0.6276147}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &8656911457825274719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875077210623263159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edae0df78b234a14e83adb30715c208b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  death: 0
 --- !u!1 &8656911457658464970
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,6 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8656911458384540599}
   - component: {fileID: 8656911458384540596}
+  - component: {fileID: 1159672999}
   m_Layer: 0
   m_Name: HitboxSlash
   m_TagString: slash
@@ -188,6 +264,19 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &1159672999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656911458384540598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edae0df78b234a14e83adb30715c208b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  death: 0
 --- !u!1 &8656911458432000773
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +313,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8656911458384540599}
-  - {fileID: 8656911458454254352}
+  - {fileID: 3954176373917087479}
   - {fileID: 8656911457658464971}
   - {fileID: 1788092441805739908}
   - {fileID: 7349800935867870724}
@@ -453,66 +542,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coleccionable: {fileID: 0}
---- !u!1 &8656911458454254355
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8656911458454254352}
-  - component: {fileID: 8656911458454254353}
-  m_Layer: 0
-  m_Name: HitboxSlashLeft
-  m_TagString: slash
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8656911458454254352
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8656911458454254355}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9615345, y: -0.37874568, z: -0.038635306}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8656911458432000826}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &8656911458454254353
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8656911458454254355}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -7.15, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.61162424, y: 1.5585653}
-  - {x: -0.46042967, y: 1.6051339}
-  - {x: -1.0622134, y: 1.410803}
-  - {x: -1.1359525, y: 1.2281706}
-  - {x: -1.0433354, y: 0.8993142}
-  - {x: 1.2410684, y: -0.24385524}
-  - {x: 2.0605936, y: -0.44342923}
-  - {x: 2.2190056, y: -0.4698614}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!1001 &4600759743958280229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -520,6 +549,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8656911458432000826}
     m_Modifications:
+    - target: {fileID: -6564696934734727153, guid: c3d03deaa749be2418dbff031bf34124, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6564696934734727153, guid: c3d03deaa749be2418dbff031bf34124, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6564696934734727153, guid: c3d03deaa749be2418dbff031bf34124, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4813417065116124110, guid: c3d03deaa749be2418dbff031bf34124, type: 3}
       propertyPath: m_Name
       value: Slash

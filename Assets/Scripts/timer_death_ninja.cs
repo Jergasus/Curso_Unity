@@ -48,7 +48,7 @@ public class timer_death_ninja : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "slash_enemy" && gameObject.tag == "Player")
+        if (collision.gameObject.tag == "slash_enemy")
         {
             --vida;
         }
@@ -57,7 +57,7 @@ public class timer_death_ninja : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "slash_missile" && gameObject.tag == "Player")
+        if (collision.gameObject.tag == "slash_missile")
         {
             vida = vida - 2;
         }
