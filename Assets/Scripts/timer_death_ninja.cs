@@ -7,6 +7,7 @@ public class timer_death_ninja : MonoBehaviour
 {
     private Animator anim;
     public Vida barra;
+    public Vida_Coleccionable heart;
     private float vida;
     private float max_hp;
     private float time;
@@ -23,6 +24,7 @@ public class timer_death_ninja : MonoBehaviour
     void Update()
     {
         barra.ActualizaVida(vida, max_hp);
+        heart.ActualizaVida(hp.coleccionable.heart, 3);
         if (time > 0 && vida <= 0)
         {
             time -= Time.deltaTime;

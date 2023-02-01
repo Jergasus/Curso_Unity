@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float vertical;
     private bool tecnica;
     private bool dash;
     private float cooldown = 0f;
@@ -20,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private float new_speed_x;
     public Rigidbody2D rb;
     private Animator anim;
+    public ParticleSystem slash_particle;
 
 
     private void Awake()
@@ -50,22 +50,19 @@ public class PlayerMovement : MonoBehaviour
             cooldown -= Time.deltaTime;
             if (cooldown < 0f) cooldown = 0f;
         }
-
-
     }
 
     private void FixedUpdate() {
         if (cooldown < 0.5f) 
         {
             rb.velocity = new Vector2(horizontal * speed_x, rb.velocity.y);
-            Jump();
             Run();
         }
         if (horizontal != 0) anim.SetFloat("Horizontal", horizontal);
         anim.SetBool("Running", run);
         anim.SetBool("UsingTecnica", tecnica);
 
-        if (tecnica) transform.GetChild(4).gameObject.GetComponent<ParticleSystem>().Play();
+        if (tecnica) slash_particle.Play();
 
         if (Time.timeScale == 1) paused = false;
     }
@@ -86,12 +83,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Jump() {
-        if (onGround && vertical != 0) {
-            rb.velocity += Vector2.up * speed_y * vertical;
-        }
-    }
-
     private void Run() {
         if (onGround && horizontal != 0) {
             run = true;
@@ -101,10 +92,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Horizontal(InputAction.CallbackContext ctx) {
         horizontal = ctx.ReadValue<float>();
-    }
-
-    public void Vertical(InputAction.CallbackContext ctx) {
-        vertical = ctx.ReadValue<float>();
     }
     public void Tecnica(InputAction.CallbackContext ctx) 
     {

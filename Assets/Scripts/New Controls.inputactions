@@ -15,15 +15,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Vertical",
-                    "type": "Button",
-                    "id": "2ccca775-9326-4bb7-b692-c3776ffe205c",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Tecnica",
                     "type": "Button",
                     "id": "74cddceb-8283-4288-9b6f-78752032b446",
@@ -84,17 +75,6 @@
                     "action": "Horizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "212af899-7282-4819-bf27-57caaa74659d",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Vertical",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "",

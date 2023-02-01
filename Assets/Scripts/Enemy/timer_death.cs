@@ -8,11 +8,12 @@ public class timer_death : MonoBehaviour
     public GameObject heart;
     public float life;
     private float time;
+    public Transform heart_position;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
-        time = 1f;
+        time = 0.7f;
     }
     // Update is called once per frame
     void Update()
@@ -22,7 +23,11 @@ public class timer_death : MonoBehaviour
             time -= Time.deltaTime;
             if (time <= 0f)
             {
-                Instantiate(heart, transform.GetChild(4).gameObject.transform.position, Quaternion.identity);
+                GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+                GetComponent<Collider2D>().enabled = false;
+                Instantiate(heart, heart_position.position, Quaternion.identity);
+                Instantiate(heart, heart_position.position, Quaternion.identity);
+                Instantiate(heart, heart_position.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }
