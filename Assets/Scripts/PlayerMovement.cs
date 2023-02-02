@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     private bool onGround = true;
     private bool run = false;
     public float speed_x;
-    public float speed_y;
     private float new_speed_x;
     public Rigidbody2D rb;
     private Animator anim;

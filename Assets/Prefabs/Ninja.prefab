@@ -291,6 +291,7 @@ GameObject:
   - component: {fileID: 8656911458432000828}
   - component: {fileID: 8656911458432000829}
   - component: {fileID: 8390814683015706047}
+  - component: {fileID: 7534591196936698879}
   - component: {fileID: 2060459847}
   m_Layer: 0
   m_Name: Ninja
@@ -495,7 +496,6 @@ MonoBehaviour:
   menu: {fileID: 0}
   interfaz: {fileID: 0}
   speed_x: 5
-  speed_y: 8
   rb: {fileID: 8656911458432000827}
   audio_dash: {fileID: 8300000, guid: abd47b749f1d84f4d880b1c26e27b9cb, type: 3}
   audio: {fileID: 2060459847}
@@ -528,6 +528,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coleccionable: {fileID: 0}
+--- !u!114 &7534591196936698879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656911458432000773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41f273c7fe701a4d9fcff47bbf5f1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missile: {fileID: 0}
+  missile_position: {fileID: 0}
 --- !u!82 &2060459847
 AudioSource:
   m_ObjectHideFlags: 0

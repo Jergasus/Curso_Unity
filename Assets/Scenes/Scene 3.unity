@@ -1128,7 +1128,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 58, y: -10, z: 0}
+  - first: {x: 59, y: -10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 17
@@ -1138,7 +1138,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 59, y: -10, z: 0}
+  - first: {x: 60, y: -10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 16
@@ -1148,7 +1148,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 60, y: -10, z: 0}
+  - first: {x: 61, y: -10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 15
@@ -2088,7 +2088,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 58, y: -9, z: 0}
+  - first: {x: 59, y: -9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -2098,7 +2098,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 59, y: -9, z: 0}
+  - first: {x: 60, y: -9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 13
@@ -2108,7 +2108,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 60, y: -9, z: 0}
+  - first: {x: 61, y: -9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 12
@@ -4915,13 +4915,13 @@ CompositeCollider2D:
         Y: -99000000
       - X: 534700000
         Y: -99000000
-    - - X: 604000000
+    - - X: 613899968
         Y: -79100000
-      - X: 574200000
+      - X: 584099968
         Y: -79100000
-      - X: 574200000
+      - X: 584099968
         Y: -99000000
-      - X: 604000000
+      - X: 613899968
         Y: -99000000
     - - X: 693099968
         Y: -79100000
@@ -4941,10 +4941,10 @@ CompositeCollider2D:
       - {x: 69.30997, y: -7.9100003}
       - {x: 66.33, y: -7.91003}
       - {x: 66.33003, y: -9.900001}
-    - - {x: 60.399967, y: -9.900001}
-      - {x: 60.399967, y: -7.9100003}
-      - {x: 57.420002, y: -7.91003}
-      - {x: 57.420033, y: -9.900001}
+    - - {x: 61.389965, y: -9.900001}
+      - {x: 61.389965, y: -7.9100003}
+      - {x: 58.409996, y: -7.91003}
+      - {x: 58.41003, y: -9.900001}
     - - {x: 53.46997, y: -9.900001}
       - {x: 53.46997, y: -7.9100003}
       - {x: 50.490005, y: -7.91003}
@@ -8394,5 +8394,6 @@ PrefabInstance:
       propertyPath: coleccionable
       value: 
       objectReference: {fileID: 11341038}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7534591196936698879, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}

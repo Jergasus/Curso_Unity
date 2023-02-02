@@ -8,11 +8,21 @@ public class timer_death_ninja : MonoBehaviour
     private Animator anim;
     public Vida barra;
     public Vida_Coleccionable heart;
-    private float vida;
-    private float max_hp;
+    public float max_hp = 5;
+    public float vida = 5;
     private float time;
     public PlayerLife hp;
     public Rigidbody2D rb;
+
+    private void Awake()
+    {
+        if (GameManager.Instance.vidaExisted)
+        {
+            this.vida = GameManager.Instance.curr_hp;
+            this.max_hp = GameManager.Instance.max_hp;
+            this.hp.coleccionable.heart = GameManager.Instance.hearts;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +40,7 @@ public class timer_death_ninja : MonoBehaviour
         if (time > 0 && vida <= 0)
         {
             time -= Time.deltaTime;
-            if (time <= 0) SceneManager.LoadScene(4);
+            if (time <= 0) SceneManager.LoadScene(5);
         }
     }
 
@@ -69,7 +79,6 @@ public class timer_death_ninja : MonoBehaviour
         }
         if (collision.gameObject.tag == "limit")
         {
-            Debug.Log("Hola");
             vida = 0;
         }
     }

@@ -6,6 +6,7 @@ public class PlayerLife : MonoBehaviour
 {
 
     public ContadorCol coleccionable;
+
     // Start is called before the first frame update
     void Start()
     {
