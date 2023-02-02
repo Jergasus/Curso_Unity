@@ -13,6 +13,7 @@ TagManager:
   - area_coleccionable
   - Enemy
   - slash_missile
+  - limit
   layers:
   - Default
   - TransparentFX
@@ -47,8 +48,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 3760755109
+    locked: 0
+  - name: Background
+    uniqueID: 3581808769
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1621626535
     locked: 0
   - name: Canvas
     uniqueID: 3642123777

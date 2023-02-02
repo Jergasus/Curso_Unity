@@ -299,9 +299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558a92bbfc4a5ca4e8cf106564cbf84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heart: {fileID: 3391439316026152803, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
+  heart: {fileID: 8700648420853610487, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
   heart_position: {fileID: 2003928181800525844}
-  explosion: {fileID: 0}
+  explosion: {fileID: 5995588979161232826, guid: 8989300eb335406498e0d7077281e9da, type: 3}
 --- !u!114 &8860504558560180895
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -441,7 +441,6 @@ MonoBehaviour:
   target: {fileID: 0}
   area: {fileID: 8504033590449225563}
   area_hit: {fileID: 8504033590393402979}
-  hit: {fileID: 0}
 --- !u!114 &737959505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad7feb27a9e10f44aaea485b976219a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heart: {fileID: 3391439316026152803, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
+  heart: {fileID: 8700648420853610487, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
   life: 1
   heart_position: {fileID: 938679496}
 --- !u!1 &8504033592101132514

@@ -30,7 +30,7 @@ public class timer_death_ninja : MonoBehaviour
         if (time > 0 && vida <= 0)
         {
             time -= Time.deltaTime;
-            if (time <= 0) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (time <= 0) SceneManager.LoadScene(4);
         }
     }
 
@@ -59,7 +59,6 @@ public class timer_death_ninja : MonoBehaviour
         {
             --vida;
         }
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -67,6 +66,11 @@ public class timer_death_ninja : MonoBehaviour
         if (collision.gameObject.tag == "slash_missile")
         {
             vida -= 2;
+        }
+        if (collision.gameObject.tag == "limit")
+        {
+            Debug.Log("Hola");
+            vida = 0;
         }
     }
 }

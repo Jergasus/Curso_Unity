@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private float new_speed_x;
     public Rigidbody2D rb;
     private Animator anim;
+    public AudioClip audio_dash;
+    public new AudioSource audio;
 
 
     private void Awake()
@@ -101,7 +103,11 @@ public class PlayerMovement : MonoBehaviour
         {
             dash = ctx.ReadValue<float>() == 1f;
             anim.SetBool("UsingDash", dash);
-            if (dash) cooldown = 1f;
+            if (dash)
+            {
+                audio.PlayOneShot(audio_dash);
+                cooldown = 1f;
+            }
 
         }
     }
