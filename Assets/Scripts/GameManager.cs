@@ -8,11 +8,6 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public PlayerMovement Player;
-    public timer_death_ninja vida;
-    public float curr_hp;
-    public float max_hp;
-    public int hearts;
-    public bool vidaExisted = false;
 
     private void Awake()
     {
@@ -31,11 +26,9 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    public void BeforeLoad()
+
+    public void HoldValues()
     {
-        curr_hp = vida.vida;
-        max_hp = vida.max_hp;
-        hearts = vida.hp.coleccionable.heart;
-        vidaExisted = true;
+
     }
 }

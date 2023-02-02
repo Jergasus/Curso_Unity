@@ -8257,6 +8257,10 @@ PrefabInstance:
       propertyPath: life
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8504033590449225562, guid: 87f3f81118651394b8c6e75b219a40c7, type: 3}
+      propertyPath: m_Radius
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8504033592088223314, guid: 87f3f81118651394b8c6e75b219a40c7, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -8307,7 +8311,7 @@ PrefabInstance:
       objectReference: {fileID: 745936992}
     - target: {fileID: 8504033592088223315, guid: 87f3f81118651394b8c6e75b219a40c7, type: 3}
       propertyPath: deltaToTarget
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8504033592088223342, guid: 87f3f81118651394b8c6e75b219a40c7, type: 3}
       propertyPath: m_Name

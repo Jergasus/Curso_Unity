@@ -12811,5 +12811,6 @@ PrefabInstance:
       propertyPath: coleccionable
       value: 
       objectReference: {fileID: 11341038}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7534591196936698879, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
