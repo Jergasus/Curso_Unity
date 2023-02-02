@@ -374,17 +374,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8860504558560180865}
     m_Modifications:
+    - target: {fileID: 206581858383039189, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2597175689089658530, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2597175689089658530, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04
+      value: -0.089
       objectReference: {fileID: 0}
     - target: {fileID: 2597175689089658530, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.94
+      value: -2.499
       objectReference: {fileID: 0}
     - target: {fileID: 2597175689089658530, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: m_LocalPosition.z
@@ -421,6 +425,14 @@ PrefabInstance:
     - target: {fileID: 3361711495407883088, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: m_Name
       value: Motor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5428348215238951330, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5428348215238951330, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
