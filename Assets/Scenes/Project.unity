@@ -254,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407872715}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.13, y: -1.67, z: -10}
+  m_LocalPosition: {x: -13.94, y: -1.56, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -351,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596140187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.13, y: -1.67, z: -10}
+  m_LocalPosition: {x: -13.94, y: -1.56, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -408,6 +408,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0977756290229a4b8ff695d5df964fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &745937004 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 8656911458432000827, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
+  m_PrefabInstance: {fileID: 8656911457825274714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1131028629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6329123416746670736, guid: a2ebcd776824698488bffb5de58ace9b, type: 3}
@@ -992,11 +997,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8656911458432000826, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.13
+      value: -13.94
       objectReference: {fileID: 0}
     - target: {fileID: 8656911458432000826, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.67
+      value: -1.56
       objectReference: {fileID: 0}
     - target: {fileID: 8656911458432000826, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1038,6 +1043,10 @@ PrefabInstance:
       propertyPath: interfaz
       value: 
       objectReference: {fileID: 2112614976}
+    - target: {fileID: 8656911458432000829, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 745937004}
     - target: {fileID: 8656911458432000829, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
       propertyPath: barra
       value: 

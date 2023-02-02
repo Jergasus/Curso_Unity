@@ -12,6 +12,8 @@ public class timer_death_ninja : MonoBehaviour
     private float max_hp;
     private float time;
     public PlayerLife hp;
+    public Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,9 @@ public class timer_death_ninja : MonoBehaviour
             ++vida;
             hp.coleccionable.heart = 0;
         }
+        if (rb.position.y < -15) vida = 0;
+        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
