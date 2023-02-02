@@ -301,6 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heart: {fileID: 3391439316026152803, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
   heart_position: {fileID: 2003928181800525844}
+  explosion: {fileID: 0}
 --- !u!114 &8860504558560180895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5428348215238951330, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: ShapeModule.radius.value
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5428348215238951330, guid: 38727890fad7eed46aadebdd0d86b517, type: 3}
       propertyPath: InitialModule.startSize.scalar

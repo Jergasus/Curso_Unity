@@ -193,6 +193,10 @@ PrefabInstance:
       propertyPath: heart
       value: 
       objectReference: {fileID: 8700648420853610487, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
+    - target: {fileID: 8860504558560180892, guid: d43c717d6680b724c8f015e3dca09782, type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 5995588979161232826, guid: 8989300eb335406498e0d7077281e9da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d43c717d6680b724c8f015e3dca09782, type: 3}
 --- !u!1 &407872715
