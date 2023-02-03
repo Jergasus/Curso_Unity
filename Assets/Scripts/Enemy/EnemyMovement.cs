@@ -11,6 +11,8 @@ public class EnemyMovement : MonoBehaviour
     public Area area;
     public Area_Little area_hit;
     private float time;
+    public AudioClip hit;
+    public new AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +38,12 @@ public class EnemyMovement : MonoBehaviour
         if (area.inside) rb.position = Vector2.MoveTowards(rb.position, target.position, deltaToTarget);
         if (time == 0f)
         {
-            anim.SetBool("Detection", area_hit.inside_little);
-            if (area_hit.inside_little) time = 1f;
+            if (area_hit.inside_little)
+            {
+                audio.PlayOneShot(hit);
+                anim.SetBool("Detection", true);
+                time = 1f;
+            }
         }
         if (rb.position.x < target.position.x) anim.SetFloat("Direction", -1);
         else if (rb.position.x > target.position.x) anim.SetFloat("Direction", 1);

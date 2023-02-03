@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     public AudioClip audio_dash;
     public AudioClip audio_slash;
+    public AudioClip entrance;
     public new AudioSource audio;
 
 
@@ -29,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         paused = false;
         menu.SetActive(false);
         interfaz.SetActive(true);
+        audio.PlayOneShot(entrance);
     }
 
     private void Start() {

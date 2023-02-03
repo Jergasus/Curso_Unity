@@ -20,7 +20,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -7.7, y: -1.32, z: 0.109865}
+        value: {x: -7.68, y: 2.91, z: 0.04415929}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -28,8 +28,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.26666668
-        value: {x: -7.7, y: -1.34, z: 0.109865}
+        time: 0.18333334
+        value: {x: -7.68, y: 1.84, z: 0.04415929}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -39,7 +39,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hit
+    path: HitboxAttack
   m_ScaleCurves: []
   m_FloatCurves:
   - curve:
@@ -97,61 +97,6 @@ AnimationClip:
     path: HitboxAttack
     classID: 68
     script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.26666668
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.65
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Hit
-    classID: 1
-    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -186,7 +131,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1654612129
+      path: 3438708457
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -197,13 +142,6 @@ AnimationClip:
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 68
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1654612129
-      attribute: 2086281974
-      script: {fileID: 0}
-      typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
@@ -305,7 +243,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -7.7
+        value: -7.68
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -313,8 +251,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.26666668
-        value: -7.7
+        time: 0.18333334
+        value: -7.68
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -325,7 +263,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Hit
+    path: HitboxAttack
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -333,7 +271,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -1.32
+        value: 2.91
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -341,8 +279,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.26666668
-        value: -1.34
+        time: 0.18333334
+        value: 1.84
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -353,7 +291,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Hit
+    path: HitboxAttack
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -361,7 +299,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.109865
+        value: 0.04415929
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -369,8 +307,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.26666668
-        value: 0.109865
+        time: 0.18333334
+        value: 0.04415929
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -381,63 +319,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Hit
+    path: HitboxAttack
     classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.26666668
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.65
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.75
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Hit
-    classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0

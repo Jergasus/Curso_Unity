@@ -7,9 +7,14 @@ public class GameOver : MonoBehaviour
 {
     private float time;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        Audio.pause = true;
+    }
     void Start()
     {
-        time = 1.5f;
+        time = 2f;
     }
 
     // Update is called once per frame

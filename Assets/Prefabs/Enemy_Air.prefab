@@ -302,6 +302,7 @@ MonoBehaviour:
   heart: {fileID: 8700648420853610487, guid: f1a3dd1d94805974eac9253530fbe7fc, type: 3}
   heart_position: {fileID: 2003928181800525844}
   explosion: {fileID: 5995588979161232826, guid: 8989300eb335406498e0d7077281e9da, type: 3}
+  audio_clip: {fileID: 8876771013304478401, guid: 9a8da8bcd34a2b1428489fbf9fa4267d, type: 3}
 --- !u!114 &8860504558560180895
 MonoBehaviour:
   m_ObjectHideFlags: 0

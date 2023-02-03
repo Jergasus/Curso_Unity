@@ -7,6 +7,7 @@ public class timer_death_enemy_air : MonoBehaviour
     public GameObject heart;
     public Transform heart_position;
     public GameObject explosion;
+    public GameObject audio_clip;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class timer_death_enemy_air : MonoBehaviour
     {
         if (collision.gameObject.tag == "slash")
         {
+            Instantiate(audio_clip, heart_position.position, Quaternion.identity);
             Instantiate(heart, heart_position.position, Quaternion.identity);
             Instantiate(explosion, heart_position.position, Quaternion.identity);
             Destroy(gameObject);
@@ -30,6 +32,7 @@ public class timer_death_enemy_air : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Instantiate(audio_clip, heart_position.position, Quaternion.identity);
             Instantiate(explosion, heart_position.position, Quaternion.identity);
             Destroy(gameObject);
         }

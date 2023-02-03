@@ -514,6 +514,7 @@ MonoBehaviour:
   rb: {fileID: 8656911458432000827}
   audio_dash: {fileID: 8300000, guid: a85c0a4d13bfc6949a72aea98ef3c6c1, type: 3}
   audio_slash: {fileID: 8300000, guid: 230646e7777d9384fbb30e0981bff567, type: 3}
+  entrance: {fileID: 8300000, guid: 3b9872931f890cf48a23b19bf616a5e7, type: 3}
   audio: {fileID: 2060459847}
 --- !u!114 &8656911458432000829
 MonoBehaviour:
@@ -531,6 +532,9 @@ MonoBehaviour:
   heart: {fileID: 0}
   max_hp: 5
   rb: {fileID: 8656911458432000827}
+  full_hearts: {fileID: 8300000, guid: 5cb417db5302b4b4185421e18389a537, type: 3}
+  death: {fileID: 3773134491902312302, guid: c4cf3210a2229cb41a971c00dc63e1d5, type: 3}
+  audio: {fileID: 2060459847}
 --- !u!114 &8390814683015706047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,7 +573,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.53
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

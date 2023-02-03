@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DarkHeart : MonoBehaviour
 {
-    public GameObject Enemy1, Enemy2, darkheartprefab;
+    public GameObject Enemy, darkheartprefab;
     public Transform position;
     private bool spaw;
 
@@ -16,7 +16,7 @@ public class DarkHeart : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Enemy1 == null && Enemy2 == null)
+        if (Enemy == null)
         {
             if (spaw)
             {
@@ -27,7 +27,7 @@ public class DarkHeart : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

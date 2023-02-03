@@ -16,6 +16,7 @@ public class Buttons : MonoBehaviour
     {
         Time.timeScale = 0;
         SceneManager.LoadScene(0);
+        Audio.pause = true;
     }
     public void Button_Play()
     {

@@ -6,11 +6,12 @@ public class Area_Little : MonoBehaviour
 {
 
     public bool inside_little;
-    private float cooldown = 0f;
+    private float cooldown;
     // Start is called before the first frame update
     void Start()
     {
         inside_little = false;
+        cooldown = 0f;
     }
 
     // Update is called once per frame

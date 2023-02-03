@@ -11,6 +11,9 @@ public class timer_death_ninja : MonoBehaviour
     public float max_hp = 5;
     private float time;
     public Rigidbody2D rb;
+    public AudioClip full_hearts;
+    public GameObject death;
+    public new AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +28,9 @@ public class timer_death_ninja : MonoBehaviour
         heart.ActualizaVida(TotalLife.hearts, 3);
         if (time > 0 && TotalLife.vida <= 0)
         {
+            if (time == 1.05f) Instantiate(death, gameObject.transform.position, Quaternion.identity);
             time -= Time.deltaTime;
-            if (time <= 0) SceneManager.LoadScene(6);
+            if (time <= 0) SceneManager.LoadScene(7);
         }
     }
 
@@ -41,6 +45,7 @@ public class timer_death_ninja : MonoBehaviour
         }
         if (TotalLife.hearts == 3)
         {
+            audio.PlayOneShot(full_hearts);
             ++TotalLife.vida;
             TotalLife.hearts = 0;
         }
