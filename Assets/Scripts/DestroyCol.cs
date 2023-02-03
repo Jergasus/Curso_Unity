@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestroyCol : MonoBehaviour
 {
     public GameObject particle;
+    public GameObject audio_clip;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,8 @@ public class DestroyCol : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Instantiate(particle, this.transform.position, Quaternion.identity);
+            Instantiate(audio_clip, gameObject.transform.position, Quaternion.identity);
+            Instantiate(particle, gameObject.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

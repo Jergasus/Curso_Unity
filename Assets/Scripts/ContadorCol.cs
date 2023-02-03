@@ -5,19 +5,11 @@ using TMPro;
 
 public class ContadorCol : MonoBehaviour
 {
-
     public TMP_Text text;
-    public int heart;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
-        text.text = heart.ToString() + "/3";
+        text.text = TotalLife.hearts.ToString() + "/3";
     }
 
 }

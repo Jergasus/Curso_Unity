@@ -20,6 +20,8 @@ public class Buttons : MonoBehaviour
     public void Button_Play()
     {
         Time.timeScale = 1;
+        TotalLife.vida = 5;
+        TotalLife.hearts = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void Button_Restart()

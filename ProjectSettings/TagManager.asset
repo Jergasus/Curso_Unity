@@ -14,6 +14,7 @@ TagManager:
   - Enemy
   - slash_missile
   - limit
+  - GameMusic
   layers:
   - Default
   - TransparentFX

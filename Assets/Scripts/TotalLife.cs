@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TotalLife : MonoBehaviour
+public static class TotalLife
 {
-    public static float vida;
-    public static PlayerLife hp;
+    public static int vida;
+    public static int hearts;
 }

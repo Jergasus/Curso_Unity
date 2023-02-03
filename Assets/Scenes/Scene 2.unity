@@ -8046,6 +8046,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6630864860183320948, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
+      propertyPath: missile
+      value: 
+      objectReference: {fileID: 8860504558560180866, guid: d43c717d6680b724c8f015e3dca09782, type: 3}
+    - target: {fileID: 6630864860183320948, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
+      propertyPath: missile_position
+      value: 
+      objectReference: {fileID: 1237912225}
     - target: {fileID: 7534591196936698879, guid: 6d9aafd76430b3a469beb568b5a2804c, type: 3}
       propertyPath: missile
       value: 

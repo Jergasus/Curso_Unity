@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062eea9a66f100043827486cfc85e430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coleccionable: {fileID: 0}
 --- !u!1 &3875077210623263159
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +290,7 @@ GameObject:
   - component: {fileID: 8656911458432000828}
   - component: {fileID: 8656911458432000829}
   - component: {fileID: 8390814683015706047}
-  - component: {fileID: 7534591196936698879}
+  - component: {fileID: 6630864860183320948}
   - component: {fileID: 2060459847}
   m_Layer: 0
   m_Name: Ninja
@@ -475,6 +474,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: c817c48d-5086-49f9-9e2e-1606a11c8c1d
     m_ActionName: Movimiento/onPause[/Keyboard/escape,/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8656911458432000828}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: GOD_MODE
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8d0df2f6-b1c6-402b-af14-fa0edee91334
+    m_ActionName: Movimiento/GOD_MODE[/Keyboard/g]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Movimiento
@@ -497,7 +512,8 @@ MonoBehaviour:
   interfaz: {fileID: 0}
   speed_x: 5
   rb: {fileID: 8656911458432000827}
-  audio_dash: {fileID: 8300000, guid: abd47b749f1d84f4d880b1c26e27b9cb, type: 3}
+  audio_dash: {fileID: 8300000, guid: a85c0a4d13bfc6949a72aea98ef3c6c1, type: 3}
+  audio_slash: {fileID: 8300000, guid: 230646e7777d9384fbb30e0981bff567, type: 3}
   audio: {fileID: 2060459847}
 --- !u!114 &8656911458432000829
 MonoBehaviour:
@@ -513,7 +529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barra: {fileID: 0}
   heart: {fileID: 0}
-  hp: {fileID: 9129226740255531086}
+  max_hp: 5
   rb: {fileID: 8656911458432000827}
 --- !u!114 &8390814683015706047
 MonoBehaviour:
@@ -527,8 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062eea9a66f100043827486cfc85e430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coleccionable: {fileID: 0}
---- !u!114 &7534591196936698879
+--- !u!114 &6630864860183320948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -549,12 +564,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8656911458432000773}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.53
   m_Pitch: 1
   Loop: 0
   Mute: 0

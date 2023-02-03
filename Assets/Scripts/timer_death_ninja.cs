@@ -8,17 +8,9 @@ public class timer_death_ninja : MonoBehaviour
     private Animator anim;
     public Vida barra;
     public Vida_Coleccionable heart;
-    public float max_hp;
-    public float vida;
+    public float max_hp = 5;
     private float time;
-    public PlayerLife hp;
     public Rigidbody2D rb;
-
-    private void Awake()
-    {
-        max_hp = 5;
-        TotalLife.vida = max_hp;
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +22,7 @@ public class timer_death_ninja : MonoBehaviour
     void Update()
     {
         barra.ActualizaVida(TotalLife.vida, max_hp);
-        heart.ActualizaVida(TotalLife.hp.coleccionable.heart, 3);
+        heart.ActualizaVida(TotalLife.hearts, 3);
         if (time > 0 && TotalLife.vida <= 0)
         {
             time -= Time.deltaTime;
@@ -47,12 +39,12 @@ public class timer_death_ninja : MonoBehaviour
             anim.SetBool("Death", true);
             Destroy(gameObject, time);
         }
-        if (TotalLife.hp.coleccionable.heart == 3)
+        if (TotalLife.hearts == 3)
         {
             ++TotalLife.vida;
-            TotalLife.hp.coleccionable.heart = 0;
+            TotalLife.hearts = 0;
         }
-        if (rb.position.y < -15) vida = 0;
+        if (rb.position.y < -15) TotalLife.vida = 0;
         
 
     }

@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private bool tecnica;
     private bool dash;
     private float cooldown = 0f;
+    private float cooldown_tecnica = 0f;
     public bool paused;
     public GameObject menu;
     public GameObject interfaz;
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Animator anim;
     public AudioClip audio_dash;
+    public AudioClip audio_slash;
     public new AudioSource audio;
 
 
@@ -50,6 +52,13 @@ public class PlayerMovement : MonoBehaviour
             cooldown -= Time.deltaTime;
             if (cooldown < 0f) cooldown = 0f;
         }
+
+        if (cooldown_tecnica > 0f)
+        {
+            if (cooldown_tecnica <= 0.3f) anim.SetBool("UsingTecnica", false);
+            cooldown_tecnica -= Time.deltaTime;
+            if (cooldown_tecnica < 0f) cooldown_tecnica = 0f;
+        }
     }
 
     private void FixedUpdate() {
@@ -60,7 +69,6 @@ public class PlayerMovement : MonoBehaviour
         }
         if (horizontal != 0) anim.SetFloat("Horizontal", horizontal);
         anim.SetBool("Running", run);
-        anim.SetBool("UsingTecnica", tecnica);
 
         if (Time.timeScale == 1) paused = false;
     }
@@ -93,7 +101,24 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Tecnica(InputAction.CallbackContext ctx) 
     {
-        tecnica = ctx.ReadValue<float>() == 1f;
+        if (cooldown_tecnica == 0f)
+        {
+            tecnica = ctx.ReadValue<float>() == 1f;
+            anim.SetBool("UsingTecnica", tecnica);
+            if (tecnica)
+            {
+                audio.PlayOneShot(audio_slash);
+                cooldown_tecnica = 0.5f;
+            }
+
+        }
+    }
+    public void GOD_MODE(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            TotalLife.vida = 2000;
+        }
     }
 
     public void Dash(InputAction.CallbackContext ctx) 
