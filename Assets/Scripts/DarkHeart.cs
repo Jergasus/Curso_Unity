@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DarkHeart : MonoBehaviour
 {
-    public GameObject Enemy, darkheartprefab;
+    public GameObject Enemy, Enemy2, darkheartprefab;
     public Transform position;
     private bool spaw;
 
@@ -16,7 +16,7 @@ public class DarkHeart : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Enemy == null)
+        if (Enemy == null && Enemy2 == null)
         {
             if (spaw)
             {

@@ -28,7 +28,7 @@ public class Missile_Spawner : MonoBehaviour
         if (time == 0)
         {
             Instantiate(missile, missile_position.position, Quaternion.identity);
-            time = 2f;
+            time = 3f;
         }
     }
 }

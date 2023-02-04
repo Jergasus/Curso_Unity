@@ -228,7 +228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8860504558560180866}
   m_LocalRotation: {x: 0, y: 0, z: 0.7987772, w: 0.60162693}
-  m_LocalPosition: {x: 8.23, y: 4.25, z: 348.9191}
+  m_LocalPosition: {x: 8.28, y: 5.69, z: 348.9191}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -303,6 +303,7 @@ MonoBehaviour:
   heart_position: {fileID: 2003928181800525844}
   explosion: {fileID: 5995588979161232826, guid: 8989300eb335406498e0d7077281e9da, type: 3}
   audio_clip: {fileID: 8876771013304478401, guid: 9a8da8bcd34a2b1428489fbf9fa4267d, type: 3}
+  barra: {fileID: 0}
 --- !u!114 &8860504558560180895
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -21,8 +21,10 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     public AudioClip audio_dash;
     public AudioClip audio_slash;
-    public AudioClip entrance;
+    public GameObject entrance;
     public new AudioSource audio;
+    public GameObject god;
+    public Transform god_position;
 
 
     private void Awake()
@@ -30,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         paused = false;
         menu.SetActive(false);
         interfaz.SetActive(true);
-        audio.PlayOneShot(entrance);
+        Instantiate(entrance, gameObject.transform.position, Quaternion.identity);
     }
 
     private void Start() {
@@ -120,6 +122,7 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.performed)
         {
             TotalLife.vida = 2000;
+            Instantiate(god, god_position.position, Quaternion.identity);
         }
     }
 
